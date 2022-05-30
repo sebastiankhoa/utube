@@ -9,12 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.1.0",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@fontsource/pacifico": "^4.5.7",
+    "firebase": "^9.8.1",
+    "framer-motion": "^6",
+    "moment": "^2.29.3",
     "next": "12.1.6",
+    "nextjs-progressbar": "^0.0.14",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-icons": "^4.3.1",
+    "react-loader-spinner": "^6.0.0-0",
+    "react-player": "^2.10.1"
   },
   "devDependencies": {
     "eslint": "8.16.0",
-    "eslint-config-next": "12.1.6"
+    "eslint-config-next": "12.1.6",
+    "eslint-config-prettier": "^8.5.0"
   }
 }
