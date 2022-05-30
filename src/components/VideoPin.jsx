@@ -37,7 +37,14 @@ const VideoPin = ({ data }) => {
 			maxH="300px"
 		>
 			<Box cursor="pointer" onClick={() => router.replace(`/video/${data.id}`)}>
-				<video src={data.videoUrl} onMouseOver={(e) => e.target.play()} onMouseOut={(e) => e.target.pause()} muted={muted} />
+				<video
+					src={data.videoUrl}
+					onMouseOver={(e) => e.target.play()}
+					onMouseOut={(e) => e.target.pause()}
+					onTouchStart={(e) => e.target.play()}
+					onTouchEnd={(e) => e.target.pause()}
+					muted={muted}
+				/>
 			</Box>
 			<Flex mt="1" gap="2" align="center">
 				<Image
